@@ -2,18 +2,19 @@ form {
 
     /*Centralizar*/
 
-    margin: 0 auto;
+   margin-left: 45em;
+   margin-top: 20em;
     width: 400px;
 
     /*Bordas*/
-
+    align-items: center;
     padding: 1em;
     border: 1px solid #a17373;
     border-radius: 1em;
 }
 
 form div + div {
-
+  
     margin-top: 1em;
 
 }
@@ -44,7 +45,7 @@ input:focus, testearea:focus {
 
     /*Dar destaque para os elementos ativos*/
 
-    border-color: #ff0000;
+    border-color:#ff0000;
 }
 
 textarea {
@@ -55,7 +56,9 @@ textarea {
 }
 
 .button {
-
-    padding-left: 90px;
-    margin-left: .5em;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 150px;
+    background: #a17373;
+    color: white;
 }
