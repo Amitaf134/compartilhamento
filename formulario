@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title> Formulário </title>
-        <link rel="stylesheet" href="form/form {.css">
+        <link rel="stylesheet" href="form.css">
     </head>
     <body>
 
@@ -19,11 +19,8 @@
             <div>
                 <label for="msg">Mensagem:</label>
                 <input type="msg"></textarea>
-            </div>
-            <div class="button">
-                <button type="submit"> Enviar sua mensagem </button>
-
-            </div> 
+            </div>          
+                <button type="submit" class="button"> Enviar sua mensagem </button>
 
         </form>
 
